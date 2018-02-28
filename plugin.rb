@@ -2,7 +2,7 @@
 # about: Watches a category for all the users in a particular group
 # version: 0.3
 # authors: Arpit Jalan
-# url: https://github.com/discourse/discourse-watch-category-mcneel
+# url: https://github.com/newmedicine/discourse-watch-category
 
 module ::WatchCategory
 
