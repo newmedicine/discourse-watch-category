@@ -9,8 +9,8 @@ module ::WatchCategory
   def self.watch_category!
     groups_cats = {
       # "group" => ["category", "another-top-level-category", ["parent-category", "sub-category"] ],
-      "consultants" => [ "cons-announce" ],
-      "consultants" => [ "cons-discuss" ],
+      #"consultants" => [ "cons-announce" ],
+      "Consultants" => [ "cons-discuss" ],
       "SouthWest" => [ "south-west-cf" ]
       # "everyone" makes every user watch the listed categories
       # "everyone" => [ "announcements" ]
