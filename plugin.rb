@@ -15,7 +15,10 @@ module ::WatchCategory
       # "everyone" => [ "announcements" ]
     }
     WatchCategory.change_notification_pref_for_group(groups_cats, :watching)
-
+    groups_cats_first = {
+      "trust_level_2" => [ "clinical" ]
+    }
+    WatchCategory.change_notification_pref_for_group(groups_cats_first, :watching_first_post)
     #groups_cats = {
     #  "infolit" => [ ["interest-groups", "information-literacy"] ],
     #  "pedagogy" => [ ["interest-groups", "pedagogy"] ],
